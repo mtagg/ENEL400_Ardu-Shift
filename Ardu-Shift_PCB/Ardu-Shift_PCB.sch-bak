@@ -310,10 +310,6 @@ Text GLabel 4950 1600 0    50   Input ~ 0
 DOWN
 Text GLabel 4950 1250 0    50   Input ~ 0
 UP
-NoConn ~ 5400 2350
-NoConn ~ 5400 1350
-NoConn ~ 5400 2000
-NoConn ~ 5400 1700
 $Comp
 L power:GND #PWR0110
 U 1 1 6030CAAD
@@ -358,12 +354,6 @@ F 3 "" H 5100 1800 50  0001 C CNN
 	1    5100 1650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6450 1900
-NoConn ~ 6450 2000
-NoConn ~ 5400 1250
-NoConn ~ 5400 1600
-NoConn ~ 5400 1900
-NoConn ~ 5400 2250
 $Comp
 L power:GND #PWR0113
 U 1 1 60309DE9
