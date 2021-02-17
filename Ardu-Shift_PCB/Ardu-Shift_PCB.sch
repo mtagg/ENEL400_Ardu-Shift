@@ -166,9 +166,9 @@ Wire Wire Line
 	1800 2700 1800 2450
 Wire Wire Line
 	1250 2700 1800 2700
-Text GLabel 1300 5200 0    50   Input ~ 0
+Text GLabel 1950 5300 2    50   Input ~ 0
 R_LED
-Text GLabel 1300 5100 0    50   Input ~ 0
+Text GLabel 1300 4700 0    50   Input ~ 0
 G_LED
 $Comp
 L power:GND #PWR0104
@@ -198,7 +198,7 @@ Text GLabel 1950 5200 2    50   Input ~ 0
 MOSI
 Text GLabel 2750 2050 0    50   Input ~ 0
 CE
-Text GLabel 1950 5300 2    50   Input ~ 0
+Text GLabel 1300 4800 0    50   Input ~ 0
 CE
 $Comp
 L power:+5V #PWR0107
@@ -224,11 +224,11 @@ F 3 "" H 2750 2550 50  0001 C CNN
 $EndComp
 Text GLabel 2750 2150 0    50   Input ~ 0
 RES
-Text GLabel 1300 5300 0    50   Input ~ 0
+Text GLabel 1300 4600 0    50   Input ~ 0
 RES
 Text GLabel 2550 5900 2    50   Input ~ 0
 RESET
-Text GLabel 1300 5000 0    50   Input ~ 0
+Text GLabel 1300 5300 0    50   Input ~ 0
 B_LED
 Text GLabel 1950 4900 2    50   Input ~ 0
 UP
@@ -493,9 +493,9 @@ Text Notes 800  3200 0    50   ~ 0
 Will be using THT for LEDs, Resistors, and Speaker \nTODO** determine resistor values for the LEDs michael has on hand\n
 Text Notes 750  5950 0    50   ~ 0
 RESET pin is already tied high internally\n
-Text GLabel 1300 4600 0    50   Input ~ 0
+Text GLabel 1300 5200 0    50   Input ~ 0
 B_Button
-Text GLabel 1300 4700 0    50   Input ~ 0
+Text GLabel 1300 5100 0    50   Input ~ 0
 A_Button
 $Comp
 L power:+5V #PWR0105
@@ -508,7 +508,7 @@ F 3 "" H 1950 4500 50  0001 C CNN
 	1    1950 4500
 	0    1    1    0   
 $EndComp
-Text GLabel 1300 4800 0    50   Input ~ 0
+Text GLabel 1300 5000 0    50   Input ~ 0
 Speaker-
 Text GLabel 1300 4900 0    50   Input ~ 0
 Speaker+
@@ -636,4 +636,24 @@ Wire Wire Line
 Connection ~ 3000 6650
 Wire Wire Line
 	3000 6650 3250 6650
+Wire Wire Line
+	4950 1900 5400 1900
+Wire Wire Line
+	4950 2250 5400 2250
+Wire Wire Line
+	5400 1250 4950 1250
+Wire Wire Line
+	4950 1600 5400 1600
+Wire Wire Line
+	5400 1350 4950 1350
+Connection ~ 4950 1350
+Wire Wire Line
+	4950 1700 5400 1700
+Connection ~ 4950 1700
+Wire Wire Line
+	4950 2000 5400 2000
+Connection ~ 4950 2000
+Wire Wire Line
+	4950 2350 5400 2350
+Connection ~ 4950 2350
 $EndSCHEMATC
