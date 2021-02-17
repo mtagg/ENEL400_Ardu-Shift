@@ -21,6 +21,31 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Generic_SPDT_Slide
+#
+DEF Connector_Generic_SPDT_Slide U 0 40 Y Y 1 F N
+F0 "U" 80 -180 39 H V C CNN
+F1 "Connector_Generic_SPDT_Slide" 220 -70 39 H V C CNN
+F2 "" 0 0 100 H I C CNN
+F3 "" 0 0 100 H I C CNN
+DRAW
+C -200 -120 10 0 1 0 N
+C 0 -120 10 0 1 0 N
+S -250 -50 50 -200 0 1 0 N
+S -230 -90 30 -150 0 1 0 N
+S -160 -110 -40 -130 0 1 0 N
+P 2 0 1 0 -200 -50 -200 -200 N
+P 2 0 1 0 -100 -50 -100 -200 N
+P 2 0 1 0 0 -50 0 -200 N
+X ~ 1 -200 -250 59 U 39 39 1 1 B
+X ~ 1 -200 0 59 D 39 39 1 1 B
+X ~ 2 -100 -250 59 U 39 39 1 1 B
+X ~ 2 -100 0 59 D 39 39 1 1 B
+X ~ 3 0 -250 59 U 39 39 1 1 B
+X ~ 3 0 0 59 D 39 39 1 1 B
+ENDDRAW
+ENDDEF
+#
 # Device_Arduino_Pro_Micro
 #
 DEF Device_Arduino_Pro_Micro U 0 40 Y Y 1 F N
@@ -70,28 +95,6 @@ X ~ 1 -150 50 100 R 50 50 1 1 B
 X ~ 1 300 50 100 L 50 50 1 1 B
 X ~ 2 -150 -50 100 R 50 50 1 1 B
 X ~ 2 300 -50 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# Device_D
-#
-DEF Device_D D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 10 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
