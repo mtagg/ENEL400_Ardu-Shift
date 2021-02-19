@@ -118,8 +118,8 @@ $Comp
 L Device:R R1
 U 1 1 602EAA04
 P 1300 2300
-F 0 "R1" H 1370 2346 50  0000 L CNN
-F 1 "R" H 1370 2255 50  0000 L CNN
+F 0 "R1" H 1350 2300 50  0000 L CNN
+F 1 "470R" V 1300 2200 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1230 2300 50  0001 C CNN
 F 3 "~" H 1300 2300 50  0001 C CNN
 	1    1300 2300
@@ -129,8 +129,8 @@ $Comp
 L Device:R R2
 U 1 1 602EB07F
 P 1550 2300
-F 0 "R2" H 1620 2346 50  0000 L CNN
-F 1 "R" H 1620 2255 50  0000 L CNN
+F 0 "R2" H 1600 2300 50  0000 L CNN
+F 1 "470R" V 1550 2200 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1480 2300 50  0001 C CNN
 F 3 "~" H 1550 2300 50  0001 C CNN
 	1    1550 2300
@@ -140,8 +140,8 @@ $Comp
 L Device:R R3
 U 1 1 602EB3B5
 P 1800 2300
-F 0 "R3" H 1870 2346 50  0000 L CNN
-F 1 "R" H 1870 2255 50  0000 L CNN
+F 0 "R3" H 1850 2300 50  0000 L CNN
+F 1 "220R" V 1800 2200 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1730 2300 50  0001 C CNN
 F 3 "~" H 1800 2300 50  0001 C CNN
 	1    1800 2300
@@ -260,148 +260,126 @@ Text Notes 700  3800 0    100  ~ 0
 Arduino Pro-Micro
 Text Notes 700  800  0    100  ~ 0
 Outputs\n
-Text GLabel 4950 2250 0    50   Input ~ 0
+Text GLabel 4850 2750 0    50   Input ~ 0
 RIGHT
-Text GLabel 4950 1900 0    50   Input ~ 0
+Text GLabel 4850 2250 0    50   Input ~ 0
 LEFT
-Text GLabel 4950 1600 0    50   Input ~ 0
+Text GLabel 4850 1750 0    50   Input ~ 0
 DOWN
-Text GLabel 4950 1250 0    50   Input ~ 0
+Text GLabel 4850 1250 0    50   Input ~ 0
 UP
 $Comp
 L power:GND #PWR0110
 U 1 1 6030CAAD
-P 4950 1350
-F 0 "#PWR0110" H 4950 1100 50  0001 C CNN
-F 1 "GND" V 4950 1200 50  0000 R CNN
-F 2 "" H 4950 1350 50  0001 C CNN
-F 3 "" H 4950 1350 50  0001 C CNN
-	1    4950 1350
+P 4850 1350
+F 0 "#PWR0110" H 4850 1100 50  0001 C CNN
+F 1 "GND" V 4850 1200 50  0000 R CNN
+F 2 "" H 4850 1350 50  0001 C CNN
+F 3 "" H 4850 1350 50  0001 C CNN
+	1    4850 1350
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 6030C7EE
-P 4950 1700
-F 0 "#PWR0111" H 4950 1450 50  0001 C CNN
-F 1 "GND" V 4950 1550 50  0000 R CNN
-F 2 "" H 4950 1700 50  0001 C CNN
-F 3 "" H 4950 1700 50  0001 C CNN
-	1    4950 1700
+P 4850 1850
+F 0 "#PWR0111" H 4850 1600 50  0001 C CNN
+F 1 "GND" V 4850 1700 50  0000 R CNN
+F 2 "" H 4850 1850 50  0001 C CNN
+F 3 "" H 4850 1850 50  0001 C CNN
+	1    4850 1850
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0112
 U 1 1 6030C444
-P 4950 2000
-F 0 "#PWR0112" H 4950 1750 50  0001 C CNN
-F 1 "GND" V 4950 1850 50  0000 R CNN
-F 2 "" H 4950 2000 50  0001 C CNN
-F 3 "" H 4950 2000 50  0001 C CNN
-	1    4950 2000
+P 4850 2350
+F 0 "#PWR0112" H 4850 2100 50  0001 C CNN
+F 1 "GND" V 4850 2200 50  0000 R CNN
+F 2 "" H 4850 2350 50  0001 C CNN
+F 3 "" H 4850 2350 50  0001 C CNN
+	1    4850 2350
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Button_Tactile DOWN1
 U 1 1 602D2CD1
-P 5100 1650
-F 0 "DOWN1" H 5100 1800 50  0000 C CNN
-F 1 "Button_Tactile" H 5300 1550 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 5100 1800 50  0001 C CNN
-F 3 "" H 5100 1800 50  0001 C CNN
-	1    5100 1650
+P 5000 1800
+F 0 "DOWN1" H 5000 1950 50  0000 C CNN
+F 1 "Button_Tactile" H 5200 1700 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 5000 1950 50  0001 C CNN
+F 3 "" H 5000 1950 50  0001 C CNN
+	1    5000 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0113
 U 1 1 60309DE9
-P 4950 2350
-F 0 "#PWR0113" H 4950 2100 50  0001 C CNN
-F 1 "GND" V 4950 2200 50  0000 R CNN
-F 2 "" H 4950 2350 50  0001 C CNN
-F 3 "" H 4950 2350 50  0001 C CNN
-	1    4950 2350
+P 4850 2850
+F 0 "#PWR0113" H 4850 2600 50  0001 C CNN
+F 1 "GND" V 4850 2700 50  0000 R CNN
+F 2 "" H 4850 2850 50  0001 C CNN
+F 3 "" H 4850 2850 50  0001 C CNN
+	1    4850 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0114
 U 1 1 60309B0B
-P 6000 1650
-F 0 "#PWR0114" H 6000 1400 50  0001 C CNN
-F 1 "GND" V 6000 1500 50  0000 R CNN
-F 2 "" H 6000 1650 50  0001 C CNN
-F 3 "" H 6000 1650 50  0001 C CNN
-	1    6000 1650
+P 6150 1850
+F 0 "#PWR0114" H 6150 1600 50  0001 C CNN
+F 1 "GND" V 6150 1700 50  0000 R CNN
+F 2 "" H 6150 1850 50  0001 C CNN
+F 3 "" H 6150 1850 50  0001 C CNN
+	1    6150 1850
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 60308F32
-P 6000 2000
-F 0 "#PWR0115" H 6000 1750 50  0001 C CNN
-F 1 "GND" V 6000 1850 50  0000 R CNN
-F 2 "" H 6000 2000 50  0001 C CNN
-F 3 "" H 6000 2000 50  0001 C CNN
-	1    6000 2000
+P 6150 2350
+F 0 "#PWR0115" H 6150 2100 50  0001 C CNN
+F 1 "GND" V 6150 2200 50  0000 R CNN
+F 2 "" H 6150 2350 50  0001 C CNN
+F 3 "" H 6150 2350 50  0001 C CNN
+	1    6150 2350
 	0    1    1    0   
 $EndComp
-Text GLabel 6000 1900 0    50   Input ~ 0
+Text GLabel 6150 2250 0    50   Input ~ 0
 B_Button
-Text GLabel 6000 1550 0    50   Input ~ 0
+Text GLabel 6150 1750 0    50   Input ~ 0
 A_Button
-$Comp
-L Device:Button_Tactile B1
-U 1 1 602D376D
-P 6150 1950
-F 0 "B1" H 6100 2100 50  0000 C CNN
-F 1 "Button_Tactile" H 6350 1850 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 6150 2100 50  0001 C CNN
-F 3 "" H 6150 2100 50  0001 C CNN
-	1    6150 1950
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:Button_Tactile A1
 U 1 1 602D32C0
-P 6150 1600
-F 0 "A1" H 6150 1750 50  0000 C CNN
-F 1 "Button_Tactile" H 6350 1500 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 6150 1750 50  0001 C CNN
-F 3 "" H 6150 1750 50  0001 C CNN
-	1    6150 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Button_Tactile RIGHT1
-U 1 1 602D3025
-P 5100 2300
-F 0 "RIGHT1" H 5050 2450 50  0000 C CNN
-F 1 "Button_Tactile" H 5300 2200 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 5100 2450 50  0001 C CNN
-F 3 "" H 5100 2450 50  0001 C CNN
-	1    5100 2300
+P 6300 1800
+F 0 "A1" H 6300 1950 50  0000 C CNN
+F 1 "Button_Tactile" H 6500 1700 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 6300 1950 50  0001 C CNN
+F 3 "" H 6300 1950 50  0001 C CNN
+	1    6300 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Button_Tactile LEFT1
 U 1 1 602D24C3
-P 5100 1950
-F 0 "LEFT1" H 5100 2100 50  0000 C CNN
-F 1 "Button_Tactile" H 5300 1850 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 5100 2100 50  0001 C CNN
-F 3 "" H 5100 2100 50  0001 C CNN
-	1    5100 1950
+P 5000 2300
+F 0 "LEFT1" H 5000 2450 50  0000 C CNN
+F 1 "Button_Tactile" H 5200 2200 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 5000 2450 50  0001 C CNN
+F 3 "" H 5000 2450 50  0001 C CNN
+	1    5000 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Button_Tactile UP1
 U 1 1 602D1BAE
-P 5100 1300
-F 0 "UP1" H 5150 1450 50  0000 C CNN
-F 1 "Button_Tactile" H 5300 1200 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 5100 1450 50  0001 C CNN
-F 3 "" H 5100 1450 50  0001 C CNN
-	1    5100 1300
+P 5000 1300
+F 0 "UP1" H 5050 1450 50  0000 C CNN
+F 1 "Button_Tactile" H 5200 1200 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 5000 1450 50  0001 C CNN
+F 3 "" H 5000 1450 50  0001 C CNN
+	1    5000 1300
 	1    0    0    -1  
 $EndComp
 Text GLabel 2550 5800 2    50   Input ~ 0
@@ -416,14 +394,10 @@ Wire Notes Line
 	4150 3450 4150 650 
 Text Notes 4200 800  0    100  ~ 0
 User Inputs\n
-Text GLabel 1650 6600 0    50   Input ~ 0
+Text GLabel 1950 6450 0    50   Input ~ 0
 BAT+
-Wire Notes Line
-	4100 5500 6850 5500
-Wire Notes Line
-	6850 5500 6850 7550
 Text Notes 750  6250 0    100  ~ 0
-Rechargeable Cells\n
+Power & Rechargeable Cells\n
 Text GLabel 1950 4200 2    50   Input ~ 0
 BAT+
 Wire Notes Line
@@ -470,15 +444,11 @@ Wire Notes Line
 Wire Notes Line
 	750  7500 3850 7500
 Wire Notes Line
-	4100 7550 6850 7550
-Wire Notes Line
-	4100 7550 4100 5500
-Wire Notes Line
 	3950 7600 650  7600
 Wire Notes Line
 	3950 3650 3950 7600
-Text Notes 800  3200 0    50   ~ 0
-Will be using THT for LEDs, Resistors, and Speaker \nTODO** determine resistor values for the LEDs michael has on hand\n
+Text Notes 750  3400 0    50   ~ 0
+7-pin OLED display (SSD1306)\n3-THT LEDs \n2-pin Buzzer
 Text Notes 750  5950 0    50   ~ 0
 RESET pin is already tied high internally\n
 Text GLabel 1300 5200 0    50   Input ~ 0
@@ -515,8 +485,8 @@ $Comp
 L Device:Polyfuse F1
 U 1 1 6044FB48
 P 2700 6450
-F 0 "F1" V 2475 6450 50  0000 C CNN
-F 1 "Polyfuse500mA" V 2566 6450 50  0000 C CNN
+F 0 "F1" V 2750 6600 50  0000 C CNN
+F 1 "Polyfuse500mA" V 2600 6300 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2750 6250 50  0001 L CNN
 F 3 "~" H 2700 6450 50  0001 C CNN
 	1    2700 6450
@@ -528,10 +498,6 @@ Wire Wire Line
 	2950 6450 2950 6550
 Wire Wire Line
 	2950 6550 3250 6550
-Wire Wire Line
-	1950 6450 1950 6600
-Wire Wire Line
-	1650 6600 1950 6600
 NoConn ~ 2550 5900
 NoConn ~ 1950 4400
 Wire Wire Line
@@ -593,7 +559,7 @@ F 3 "" H 2500 6900 50  0001 C CNN
 	1    2500 6900
 	1    0    0    -1  
 $EndComp
-Text Notes 750  7500 0    50   ~ 0
+Text Notes 800  7450 0    50   ~ 0
 Using 2x 3.7V LiPo Cells (7.4V total)\n~7.4V supply will pass through a 500mA fuse and reverse polarity diode.\nFinal voltage regulation is handled by the Arduino Pro-Micro's internal \nregulating circutry, utilizing the "RAW" pin of the board to do so.
 Wire Wire Line
 	2600 6900 3000 6900
@@ -603,63 +569,85 @@ Connection ~ 3000 6650
 Wire Wire Line
 	3000 6650 3250 6650
 Wire Wire Line
-	4950 1900 5400 1900
+	4850 2250 5300 2250
 Wire Wire Line
-	4950 2250 5400 2250
+	4850 2750 5300 2750
 Wire Wire Line
-	5400 1250 4950 1250
+	5300 1250 4850 1250
 Wire Wire Line
-	4950 1600 5400 1600
+	4850 1750 5300 1750
 Wire Wire Line
-	5400 1350 4950 1350
-Connection ~ 4950 1350
+	5300 1350 4850 1350
+Connection ~ 4850 1350
 Wire Wire Line
-	4950 1700 5400 1700
-Connection ~ 4950 1700
+	4850 1850 5300 1850
+Connection ~ 4850 1850
 Wire Wire Line
-	4950 2000 5400 2000
-Connection ~ 4950 2000
+	4850 2350 5300 2350
+Connection ~ 4850 2350
 Wire Wire Line
-	4950 2350 5400 2350
-Connection ~ 4950 2350
+	4850 2850 5300 2850
+Connection ~ 4850 2850
 Text GLabel 2750 1950 0    50   Input ~ 0
 CS
 Text GLabel 1300 4200 0    50   Input ~ 0
 CS
-Text GLabel 3250 3950 0    50   Input ~ 0
+Text GLabel 1300 6650 0    50   Input ~ 0
 VCC
-Text GLabel 3250 4050 0    50   Input ~ 0
+Text GLabel 1300 6750 0    50   Input ~ 0
 GND
 $Comp
 L power:GND #PWR02
 U 1 1 602F98F8
-P 3250 4050
-F 0 "#PWR02" H 3250 3800 50  0001 C CNN
-F 1 "GND" H 3255 3877 50  0000 C CNN
-F 2 "" H 3250 4050 50  0001 C CNN
-F 3 "" H 3250 4050 50  0001 C CNN
-	1    3250 4050
+P 1300 6750
+F 0 "#PWR02" H 1300 6500 50  0001 C CNN
+F 1 "GND" H 1305 6577 50  0000 C CNN
+F 2 "" H 1300 6750 50  0001 C CNN
+F 3 "" H 1300 6750 50  0001 C CNN
+	1    1300 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR01
 U 1 1 602FA371
-P 3250 3950
-F 0 "#PWR01" H 3250 3800 50  0001 C CNN
-F 1 "+5V" H 3265 4123 50  0000 C CNN
-F 2 "" H 3250 3950 50  0001 C CNN
-F 3 "" H 3250 3950 50  0001 C CNN
-	1    3250 3950
+P 1300 6650
+F 0 "#PWR01" H 1300 6500 50  0001 C CNN
+F 1 "+5V" H 1315 6823 50  0000 C CNN
+F 2 "" H 1300 6650 50  0001 C CNN
+F 3 "" H 1300 6650 50  0001 C CNN
+	1    1300 6650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 2000 6000 2000
-Connection ~ 6000 2000
+	6600 2350 6150 2350
+Connection ~ 6150 2350
 Wire Wire Line
-	6000 1550 6450 1550
+	6150 1750 6600 1750
 Wire Wire Line
-	6450 1650 6000 1650
-Connection ~ 6000 1650
+	6600 1850 6150 1850
+Connection ~ 6150 1850
 Wire Wire Line
-	6000 1900 6450 1900
+	6150 2250 6600 2250
+$Comp
+L Device:Button_Tactile RIGHT1
+U 1 1 602D3025
+P 5000 2800
+F 0 "RIGHT1" H 4950 2950 50  0000 C CNN
+F 1 "Button_Tactile" H 5200 2700 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 5000 2950 50  0001 C CNN
+F 3 "" H 5000 2950 50  0001 C CNN
+	1    5000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Button_Tactile B1
+U 1 1 602D376D
+P 6300 2300
+F 0 "B1" H 6250 2450 50  0000 C CNN
+F 1 "Button_Tactile" H 6500 2200 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 6300 2450 50  0001 C CNN
+F 3 "" H 6300 2450 50  0001 C CNN
+	1    6300 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
